@@ -41,30 +41,4 @@ Full stack developer (Front end heavy)
 
 <a href="https://github.com/cvvkshcv" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cvvkshcv&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 </p>
-                      
-```
-const rows = document.getElementById('rows');
-const cols = document.getElementById('cols');
-const btn = document.getElementById('btn');
-const result = document.getElementById('result');
-btn.addEventListener('click', (e) => {
-  e.preventDefault();
-  const rowsNum = Number(rows.value || 5);
-  const colsNum = Number(cols.value || 3);
-  const resultArr = [];
-  for (let i = 0; i < rowsNum; i++) {
-    const rowResArr = [];
-    for (let j = 0; j < colsNum; j++) {
-      let num;
-      if (j % 2 === 0) {
-        num = (rowsNum * j) + i + 1;
-      } else {
-        num = (rowsNum * (j + 1)) - i;
-      }
-      rowResArr.push(`<span>${num}</span>`);
-    }
-    resultArr.push(`<div>${rowResArr.join('')}</div>`);
-  }
-  result.innerHTML = resultArr.join('');
-});
-```
+
