@@ -5,8 +5,8 @@ Full stack developer (Front end heavy)
 --------------------------------------
 
 *   🌍  I'm based in Bangalore
-*   ✉️  You can contact me at [cvvkshcv@gmail.com](mailto:cvvkshcv@gmail.com)
-*   🧠  I'm learning AWS, Datadog
+*   ✉️  You can contact me at LinkedIn/Twitter/Youtube comments, links are provided below
+*   🧠  I'm learning AWS lambda, Datadog
 
 ### Skills
 <p align="left">
